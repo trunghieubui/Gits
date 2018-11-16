@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>add_service_ui</class>
+ <widget class="QWidget" name="add_service_ui">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>246</width>
+    <height>170</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>add_service_ui</string>
+  </property>
+  <widget class="QPushButton" name="cancelButton">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>50</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#cancelButton{
+font: 75 12pt &quot;Times New Roman&quot;;
+color:#333;
+border: 2px solid #555;
+border-radius: 13px;
+padding: 5px;
+background: qradialgradient(cx: 0.3, cy: -0.4,
+fx: 0.3, fy: -0.4,
+radius: 1.5, stop: 0 #fff, stop: 1 #888);
+min-width: 70px;
+
+background-color:rgb(255, 0, 0);
+}</string>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="okButton">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>10</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#okButton{
+font: 75 12pt &quot;Times New Roman&quot;;
+color:#333;
+border: 2px solid #555;
+border-radius: 13px;
+padding: 5px;
+background: qradialgradient(cx: 0.3, cy: -0.4,
+fx: 0.3, fy: -0.4,
+radius: 1.5, stop: 0 #fff, stop: 1 #888);
+min-width: 70px;
+
+background-color: rgb(85, 255, 0);
+}</string>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="services_tab_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>90</y>
+     <width>231</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#services_tab_2{
+font: 75 12pt &quot;Times New Roman&quot;;
+color:#333;
+border: 2px solid #555;
+border-radius: 13px;
+padding: 5px;
+background: qradialgradient(cx: 0.3, cy: -0.4,
+fx: 0.3, fy: -0.4,
+radius: 1.5, stop: 0 #fff, stop: 1 #888);
+min-width: 70px;
+
+background-color:rgb(85, 170, 255);
+}</string>
+   </property>
+   <row>
+    <property name="text">
+     <string/>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>Name </string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>(%)</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QComboBox" name="income_name">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#service_name{
+font: 75 12pt &quot;Times New Roman&quot;;
+color:#333;
+border: 2px solid #555;
+
+padding: 5px;
+background: qradialgradient(cx: 0.3, cy: -0.4,
+fx: 0.3, fy: -0.4,
+radius: 1.5, stop: 0 #fff, stop: 1 #888);
+min-width: 70px;
+
+background-color:rgb(255, 255, 255);
+}</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

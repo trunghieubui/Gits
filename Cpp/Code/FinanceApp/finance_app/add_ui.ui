@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>add_ui</class>
+ <widget class="QWidget" name="add_ui">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>260</width>
+    <height>131</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>add_ui</string>
+  </property>
+  <widget class="QPushButton" name="add_service">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Click here to add a new service&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="whatsThis">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Service&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#add_service{
+font: 75 12pt &quot;Times New Roman&quot;;
+color:#333;
+border: 2px solid #555;
+border-radius: 13px;
+padding: 5px;
+background: qradialgradient(cx: 0.3, cy: -0.4,
+fx: 0.3, fy: -0.4,
+radius: 1.5, stop: 0 #fff, stop: 1 #888);
+min-width: 70px;
+
+background-color: rgb(85, 255, 0);
+}</string>
+   </property>
+   <property name="text">
+    <string>Service</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="add_iteam">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Click here to add a new iteam&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#add_iteam{
+font: 75 12pt &quot;Times New Roman&quot;;
+color:#333;
+border: 2px solid #555;
+border-radius: 13px;
+padding: 5px;
+background: qradialgradient(cx: 0.3, cy: -0.4,
+fx: 0.3, fy: -0.4,
+radius: 1.5, stop: 0 #fff, stop: 1 #888);
+min-width: 70px;
+
+background-color: rgb(85, 255, 0);
+}</string>
+   </property>
+   <property name="text">
+    <string>Iteam</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="add_income">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>10</y>
+     <width>104</width>
+     <height>104</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Click here to add a new iteam&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#add_income{
+font: 75 14pt &quot;Times New Roman&quot;;
+ border-style: solid;
+ border-width:1px;
+
+
+color:#333;
+border: 2px solid #555;
+
+
+
+background-color: rgb(255, 0, 0);
+
+
+ border-radius:50px;
+ border-color: rgb(61, 61, 61);
+ max-width:100px;
+ max-height:100px;
+ min-width:100px;
+ min-height:100px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Income</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

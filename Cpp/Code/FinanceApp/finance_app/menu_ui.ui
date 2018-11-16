@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>menu_ui</class>
+ <widget class="QWidget" name="menu_ui">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>319</width>
+    <height>150</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>menu_ui</string>
+  </property>
+  <widget class="QTabWidget" name="menu_tab">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>301</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="tab_3">
+    <attribute name="title">
+     <string>Page</string>
+    </attribute>
+    <widget class="QPushButton" name="iteam_add_button">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#iteam_add_button{
+font: 75 12pt &quot;Times New Roman&quot;;
+color:#333;
+border: 2px solid #555;
+border-radius: 13px;
+padding: 5px;
+background: qradialgradient(cx: 0.3, cy: -0.4,
+fx: 0.3, fy: -0.4,
+radius: 1.5, stop: 0 #fff, stop: 1 #888);
+min-width: 70px;
+
+background-color: rgb(85, 255, 0);
+}</string>
+     </property>
+     <property name="text">
+      <string>ADD</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="iteam_del_button">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#iteam_del_button{
+font: 75 12pt &quot;Times New Roman&quot;;
+color:#333;
+border: 2px solid #555;
+border-radius: 13px;
+padding: 5px;
+background: qradialgradient(cx: 0.3, cy: -0.4,
+fx: 0.3, fy: -0.4,
+radius: 1.5, stop: 0 #fff, stop: 1 #888);
+min-width: 70px;
+
+background-color:rgb(255, 0, 0);
+}</string>
+     </property>
+     <property name="text">
+      <string>DEL</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="iteam_search_button">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>10</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#iteam_search_button{
+font: 75 12pt &quot;Times New Roman&quot;;
+color:#333;
+border: 2px solid #555;
+border-radius: 13px;
+padding: 5px;
+background: qradialgradient(cx: 0.3, cy: -0.4,
+fx: 0.3, fy: -0.4,
+radius: 1.5, stop: 0 #fff, stop: 1 #888);
+min-width: 70px;
+
+background-color:rgb(63, 127, 191);
+}</string>
+     </property>
+     <property name="text">
+      <string>SEARCH</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="isororr_sort_button">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>60</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#isororr_sort_button{
+font: 75 12pt &quot;Times New Roman&quot;;
+color:#333;
+border: 2px solid #555;
+border-radius: 13px;
+padding: 5px;
+background: qradialgradient(cx: 0.3, cy: -0.4,
+fx: 0.3, fy: -0.4,
+radius: 1.5, stop: 0 #fff, stop: 1 #888);
+min-width: 70px;
+
+background-color:rgb(225, 225, 0);
+}</string>
+     </property>
+     <property name="text">
+      <string>SORT</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>Page</string>
+    </attribute>
+    <widget class="QPushButton" name="service_add_button">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#service_add_button{
+font: 75 12pt &quot;Times New Roman&quot;;
+color:#333;
+border: 2px solid #555;
+border-radius: 13px;
+padding: 5px;
+background: qradialgradient(cx: 0.3, cy: -0.4,
+fx: 0.3, fy: -0.4,
+radius: 1.5, stop: 0 #fff, stop: 1 #888);
+min-width: 70px;
+
+background-color: rgb(85, 255, 0);
+}</string>
+     </property>
+     <property name="text">
+      <string>ADD</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="service_del_button">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#service_del_button{
+font: 75 12pt &quot;Times New Roman&quot;;
+color:#333;
+border: 2px solid #555;
+border-radius: 13px;
+padding: 5px;
+background: qradialgradient(cx: 0.3, cy: -0.4,
+fx: 0.3, fy: -0.4,
+radius: 1.5, stop: 0 #fff, stop: 1 #888);
+min-width: 70px;
+
+background-color:rgb(255, 0, 0);
+}</string>
+     </property>
+     <property name="text">
+      <string>DEL</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="service_search_button">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>10</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#service_search_button{
+font: 75 12pt &quot;Times New Roman&quot;;
+color:#333;
+border: 2px solid #555;
+border-radius: 13px;
+padding: 5px;
+background: qradialgradient(cx: 0.3, cy: -0.4,
+fx: 0.3, fy: -0.4,
+radius: 1.5, stop: 0 #fff, stop: 1 #888);
+min-width: 70px;
+
+background-color:rgb(63, 127, 191);
+}</string>
+     </property>
+     <property name="text">
+      <string>SEARCH</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="service_sort_button">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>60</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#service_sort_button{
+font: 75 12pt &quot;Times New Roman&quot;;
+color:#333;
+border: 2px solid #555;
+border-radius: 13px;
+padding: 5px;
+background: qradialgradient(cx: 0.3, cy: -0.4,
+fx: 0.3, fy: -0.4,
+radius: 1.5, stop: 0 #fff, stop: 1 #888);
+min-width: 70px;
+
+background-color:rgb(225, 225, 0);
+}</string>
+     </property>
+     <property name="text">
+      <string>SORT</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>Page</string>
+    </attribute>
+    <widget class="QPushButton" name="income_sort_button">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>60</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#income_sort_button{
+font: 75 12pt &quot;Times New Roman&quot;;
+color:#333;
+border: 2px solid #555;
+border-radius: 13px;
+padding: 5px;
+background: qradialgradient(cx: 0.3, cy: -0.4,
+fx: 0.3, fy: -0.4,
+radius: 1.5, stop: 0 #fff, stop: 1 #888);
+min-width: 70px;
+
+background-color:rgb(225, 225, 0);
+}</string>
+     </property>
+     <property name="text">
+      <string>SORT</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="income_add_button">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#income_add_button{
+font: 75 12pt &quot;Times New Roman&quot;;
+color:#333;
+border: 2px solid #555;
+border-radius: 13px;
+padding: 5px;
+background: qradialgradient(cx: 0.3, cy: -0.4,
+fx: 0.3, fy: -0.4,
+radius: 1.5, stop: 0 #fff, stop: 1 #888);
+min-width: 70px;
+
+background-color: rgb(85, 255, 0);
+}</string>
+     </property>
+     <property name="text">
+      <string>ADD</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="income_del_button">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#income_del_button{
+font: 75 12pt &quot;Times New Roman&quot;;
+color:#333;
+border: 2px solid #555;
+border-radius: 13px;
+padding: 5px;
+background: qradialgradient(cx: 0.3, cy: -0.4,
+fx: 0.3, fy: -0.4,
+radius: 1.5, stop: 0 #fff, stop: 1 #888);
+min-width: 70px;
+
+background-color:rgb(255, 0, 0);
+}</string>
+     </property>
+     <property name="text">
+      <string>DEL</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="income_search_button">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>10</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#income_search_button{
+font: 75 12pt &quot;Times New Roman&quot;;
+color:#333;
+border: 2px solid #555;
+border-radius: 13px;
+padding: 5px;
+background: qradialgradient(cx: 0.3, cy: -0.4,
+fx: 0.3, fy: -0.4,
+radius: 1.5, stop: 0 #fff, stop: 1 #888);
+min-width: 70px;
+
+background-color:rgb(63, 127, 191);
+}</string>
+     </property>
+     <property name="text">
+      <string>SEARCH</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

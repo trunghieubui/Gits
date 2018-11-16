@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>delete_ui</class>
+ <widget class="QWidget" name="delete_ui">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>222</width>
+    <height>90</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>delete_ui</string>
+  </property>
+  <widget class="QComboBox" name="box_search">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#box_search{
+font: 75 12pt &quot;Times New Roman&quot;;
+color:#333;
+border: 2px solid #555;
+
+padding: 5px;
+background: qradialgradient(cx: 0.3, cy: -0.4,
+fx: 0.3, fy: -0.4,
+radius: 1.5, stop: 0 #fff, stop: 1 #888);
+min-width: 70px;
+
+background-color:rgb(255, 255, 255);
+}</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="okButton">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>10</y>
+     <width>84</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#okButton{
+font: 75 12pt &quot;Times New Roman&quot;;
+color:#333;
+border: 2px solid #555;
+border-radius: 13px;
+padding: 5px;
+background: qradialgradient(cx: 0.3, cy: -0.4,
+fx: 0.3, fy: -0.4,
+radius: 1.5, stop: 0 #fff, stop: 1 #888);
+min-width: 70px;
+
+background-color: rgb(85, 255, 0);
+}</string>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancelButton">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>50</y>
+     <width>84</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#cancelButton{
+font: 75 12pt &quot;Times New Roman&quot;;
+color:#333;
+border: 2px solid #555;
+border-radius: 13px;
+padding: 5px;
+background: qradialgradient(cx: 0.3, cy: -0.4,
+fx: 0.3, fy: -0.4,
+radius: 1.5, stop: 0 #fff, stop: 1 #888);
+min-width: 70px;
+
+background-color:rgb(255, 0, 0);
+}</string>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

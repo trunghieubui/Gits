@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>iteam_ui</class>
+ <widget class="QWidget" name="iteam_ui">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>277</width>
+    <height>179</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>iteam_ui</string>
+  </property>
+  <widget class="QPushButton" name="okButton">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>100</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#okButton{
+font: 75 12pt &quot;Times New Roman&quot;;
+color:#333;
+border: 2px solid #555;
+border-radius: 13px;
+padding: 5px;
+background: qradialgradient(cx: 0.3, cy: -0.4,
+fx: 0.3, fy: -0.4,
+radius: 1.5, stop: 0 #fff, stop: 1 #888);
+min-width: 70px;
+
+background-color: rgb(85, 255, 0);
+}</string>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="iteams_tab_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>151</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#iteams_tab_2{
+font: 75 12pt &quot;Times New Roman&quot;;
+color:#333;
+border: 2px solid #555;
+border-radius: 13px;
+padding: 5px;
+background: qradialgradient(cx: 0.3, cy: -0.4,
+fx: 0.3, fy: -0.4,
+radius: 1.5, stop: 0 #fff, stop: 1 #888);
+min-width: 70px;
+
+background-color:rgb(85, 170, 255);
+}</string>
+   </property>
+   <row>
+    <property name="text">
+     <string>Iteam</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Spend</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Date</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Note</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>Infomation</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="cancelButton_2">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>140</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#cancelButton_2{
+font: 75 12pt &quot;Times New Roman&quot;;
+color:#333;
+border: 2px solid #555;
+border-radius: 13px;
+padding: 5px;
+background: qradialgradient(cx: 0.3, cy: -0.4,
+fx: 0.3, fy: -0.4,
+radius: 1.5, stop: 0 #fff, stop: 1 #888);
+min-width: 70px;
+
+background-color:rgb(255, 0, 0);
+}</string>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="service_name">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>10</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#service_name{
+font: 75 12pt &quot;Times New Roman&quot;;
+color:#333;
+border: 2px solid #555;
+
+padding: 5px;
+background: qradialgradient(cx: 0.3, cy: -0.4,
+fx: 0.3, fy: -0.4,
+radius: 1.5, stop: 0 #fff, stop: 1 #888);
+min-width: 70px;
+
+background-color:rgb(255, 255, 255);
+}</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

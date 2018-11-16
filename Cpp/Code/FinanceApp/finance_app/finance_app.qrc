@@ -1,0 +1,4 @@
+<RCC>
+  <qresource prefix="finance_app"/>
+  <qresource prefix="newPrefix"/>
+</RCC>

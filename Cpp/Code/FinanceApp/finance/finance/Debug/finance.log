@@ -1,0 +1,3 @@
+﻿  main_interface.cpp
+LINK : error LNK2001: unresolved external symbol _Main
+F:\02---PROGRAMMING\10--GitHub\MyGitHub\Coding\1-.-Cpp\finance\Debug\finance.exe : fatal error LNK1120: 1 unresolved externals
